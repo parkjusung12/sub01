@@ -1,0 +1,230 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #61564e;}
+ul{list-style: none;}
+body{
+    color: #61564e;
+    font-size: 18px;
+    line-height: 28px;
+    background: url(../images/back.jpg);
+}
+
+/* header */
+#header{
+    background: url(../images/header_back.png) no-repeat center top;
+    width: 100%;
+    height: 198px;
+}
+.header_in{
+    margin: auto;
+    width: 1320px;
+    height: 136px;
+    position: relative;
+}
+
+.top{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.top li{float: left; margin-left: 80px;}
+
+.logo_main{
+    position: absolute;
+    width: 249px;
+    height: 127px;
+    top: 50px;
+    left: 50%;
+    margin-left: -124.5px;
+}
+
+.nav{
+    position: absolute;
+    top: 70px;
+    left: 0%;
+    width: 100%;
+}
+.nav li{float: left; width: 25%;}
+.nav li:nth-child(3){text-align: right;}
+.nav li:nth-child(4){text-align: right;}
+/* header------ */
+
+
+/* banner */
+#banner{height: 762px;}
+#banner img{
+    position: absolute;
+    width: 100%;
+    height: 824px;
+    top: 136px;
+    z-index: -1;
+}
+/* banner-------- */
+
+
+/* fruto */
+.con_1{
+    margin: 50px auto;
+    width: 1320px;
+    height: 700px;
+}
+.con_1 h1{
+    font-family: 'Cutive Mono';
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+}
+.con_1 li{float: left;}
+.con_1 li img{
+    width: 611px;
+    height: 623px;
+}
+.con_1 .con1_text{
+    width: 709px;
+    height: 623px;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    background-color: rgba(127, 165, 139, 43%);
+}
+.con_1 li p:nth-child(2){margin: 80px 0;}
+.con_1 li span{
+    font-size: 25px;
+    font-weight: 550;
+}
+/* fruto-------- */
+
+
+/* logo */
+.con_2{
+    margin: 50px auto;
+    width: 1320px;
+    height: 386px;
+    text-align: center;
+}
+.con_2 li{float: left; width: 50%;}
+.con_2 li h1{
+    font-family: 'Cutive Mono';
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.con_2 .main_img{
+    margin: 35px 0;
+}
+.con_2 .sub_img{margin-left: -80px;}
+.con_2 p{
+    text-align: left;
+}
+/* logo---------- */
+
+
+
+/* sub logo */
+.white{
+    width: 1320px;
+    margin: 0 auto;
+}
+.white h1{
+    font-family: 'Cutive Mono';
+    letter-spacing: -3px;
+    margin-bottom: 30px;
+}
+.white img{
+    width: 1320px;
+    height: 316px;
+}
+/* sub logo--------- */
+
+
+/* color */
+#color{
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+#color h1{
+    text-align: left;
+    font-family: 'Cutive Mono';
+    letter-spacing: -3px;
+    margin: 30px 0;
+}
+#color li{float: left; width: 33%;}
+#color li div{margin-left: 132px;}
+#color li div:nth-child(3){margin-right: 132px;}
+#color .col_w{width: 176px; height: 176px; background-color: #fff;}
+#color .col_g{width: 176px; height: 176px; background-color: #89ad95;}
+#color .col_p{width: 176px; height: 176px; background-color: #e26787;}
+/* color------------- */
+
+
+
+/* block */
+#block{
+    width: 1320px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+#block ul li{float: left; margin-bottom: 10px;}
+#block ul li h2{
+    margin-bottom: 70px;
+}
+
+.bl_1{width: 461px; height: 494px;}
+.bl_2{
+    width: 398px; 
+    height: 494px; 
+    background-color: #bfb09d; 
+    padding: 50px 30px; 
+    box-sizing: border-box; 
+    margin: 0 10px;
+}
+.bl_3{width: 441px; height: 494px;}
+
+.bl_4{width: 847px; height: 464px;}
+.bl_5{
+    width: 463px;
+    height: 464px;
+    background-color: #c3a59b;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.bl_6{
+    width: 461px;
+    height: 465px;
+    background-color: #c1bebe;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.bl_7{width: 849px; height: 465px;}
+
+
+/* footer */
+#footer{
+    
+    background: url(../images/footer_back.jpg) no-repeat top center;
+    width: 100%;
+    height: 202px;
+}
+
+
+.footer_in{
+    margin: auto;
+    width: 1320px;
+}
+
+.footer_logo{float:left; padding:20px 90px 20px 0;} /*추가함*/
+
+.foo{float: left; padding:50px 0;}
+.ter{float: right;padding:40px 0;}
+
+.ter .ter_in li{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.icon li{
+    float: left;
+    margin-left: 10px;
+}
